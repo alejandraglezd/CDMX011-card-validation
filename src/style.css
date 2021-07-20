@@ -1,3 +1,201 @@
-div {
-    padding: 1em;
-  }
+body {
+    background: #f8f7f4;
+}
+
+header {
+    font-family: Verdana;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+h1 {
+    position: absolute;
+    width: 267px;
+    height: 57px;
+    left: 113px;
+    top: 8px;
+    font-size: 75px;
+    line-height: 40px;
+    text-align: center;
+}
+
+h2 {
+    position: absolute;
+    left: 950px;
+    top: 65px;
+    font-weight: lighter;
+    font-size: 16px;
+    letter-spacing: 0.11em;
+    color: #000000;
+}
+
+h3 {
+    position: absolute;
+    left: 950px;
+    top: 257px;
+    font-weight: lighter;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.11em;
+}
+
+h4 {
+    position: absolute;
+    left: 960px;
+    top: 498px;
+    font-weight: bolder;
+    font-size: 19px;
+    text-align: center;
+    letter-spacing: 00.11em;
+}
+
+h5 {
+    position: absolute;
+    left: 490px;
+    top: 240px;
+    font-weight: bold;
+    font-size: 19px;
+    letter-spacing: 0.11em;
+}
+
+h6 {
+    position: absolute;
+    width: 638px;
+    height: 34px;
+    left: 113px;
+    top: 130px;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+}
+
+.contenedor {
+    background: #ffff;
+    width: 1440px;
+    height: 140px;
+    left: 0px;
+    top: 13440;
+}
+
+main {
+    font-family: Verdana;
+    font-size: 16;
+    font-weight: 70;
+    color: gray;
+}
+
+.imgDesc {
+    position: absolute;
+    width: 423px;
+    height: 233px;
+    left: 249px;
+    top: 259px;
+}
+
+.formulario {
+    position: absolute;
+    width: 604px;
+    height: 222px;
+    left: 119px;
+    top: 750px;
+}
+
+p {
+    position: relative;
+    width: 450px;
+    height: 48px;
+    left: 81px;
+    top: 670px;
+    font-family: Verdana;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.11 em;
+}
+
+.visaImg {
+    position: absolute;
+    width: 120.23px;
+    height: 61.74px;
+    left: 122px;
+    top: 623.26px;
+}
+
+.mcImg {
+    position: absolute;
+    width: 110px;
+    height: 57px;
+    left: 262px;
+    top: 628px;
+}
+
+.ingDatos {
+    position: absolute;
+    width: 613px;
+    height: 100px;
+    left: 119px;
+    top: 713px;
+}
+
+.validateNumber {
+    width: 342px;
+    height: 34px;
+    left: 119px;
+    top: 731px;
+    font-size: 18px;
+    font-family: Verdana;
+}
+
+.validateName {
+    width: 342px;
+    height: 34px;
+    left: 119px;
+    top: 777px;
+    font-size: 18px;
+    font-family: Verdana;
+}
+
+.validateMonth {
+    width: 98px;
+    height: 34px;
+    left: 525px;
+    top: 728px;
+    font-size: 18px;
+    font-family: Verdana;
+}
+
+.validateYear {
+    width: 98px;
+    height: 34px;
+    left: 630px;
+    top: 728px;
+    font-size: 18px;
+    font-family: Verdana;
+}
+
+.validateCVV {
+    width: 207px;
+    height: 34px;
+    left: 525px;
+    top: 777px;
+    bottom: 100px;
+    font-size: 18px;
+    font-family: Verdana;
+}
+
+.finalResult {
+    position: relative;
+    left: 606px;
+    top: 850px;
+    color: darkred;
+}
+
+footer {
+    position: absolute;
+    left: 420px;
+    top: 700px;
+    font-size: 18px;
+    letter-spacing: 11.em;
+    font-family: Verdana;
+}

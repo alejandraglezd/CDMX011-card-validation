@@ -1,17 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Card Validation</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>Art SALE</header>
+</head>
+
+<body>
+    <header>
+        <h1>ARTSale</h1>
+        <h2>Buscar / Cuenta / Carrito </h2>
+        <h3>Detalles<br><br><i>- Alambre forjado<br>-8 x 5 x 3 cm<br><br>Plata 925<br><br>Hecho en México, 2013</i></h3>
+        <h4>TOTAL: $5,000.00</h4>
+        <h5>Exterocepción<br><i>earcuff</i><br>$5,000.00</h5>
+        <h6>ARTSale / Tienda de Diseño / Joyería / Exterocepción</h6>
+    </header>
     <main>
-      <img src="extero.jpg">
-      <p>NÚMERO DE TARJETA <input type="text" name="NÚMERO"/></p>
+        <div class="contenedor">
+            <p>INTRODUCE LOS DATOS DE TU TARJETA</p>
+
+            <div class="formulario">
+                <div class="cardValidation">
+                    <input class="validateNum" type="text" id="validateNumber" placeholder="NUMERO DE TARJETA" required>
+                    <input class="validateName" name="NOMBRE" id="validateName" placeholder="TITULAR DE LA TARJETA">
+                    <input class="validateMonth" name="MES" id="validateMonth" placeholder="MES">
+                    <input class="validateYear" name="AÑO" id="validateYear" placeholder="AÑO">
+                    <input class="validateCVV" name="CVV" id="validateCVV" placeholder="CVV">
+                    <input class="btnValid" type="button" id="btnValidar" value="VALIDAR">
+                </div>
+            </div>
+        </div>
+        <p id="finalResult"></p>
     </main>
-    <footer></footer>
+    <footer>
+        <p>© ARTSale 2021</p>
+    </footer>
     <script src="index.js" type="module"></script>
-  </body>
+</body>
+
 </html>
