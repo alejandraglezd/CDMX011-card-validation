@@ -21,7 +21,7 @@ h1 {
 
 h2 {
     position: absolute;
-    left: 950px;
+    left: 1200px;
     top: 65px;
     font-weight: lighter;
     font-size: 16px;
@@ -51,7 +51,7 @@ h4 {
 
 h5 {
     position: absolute;
-    left: 490px;
+    left: 540px;
     top: 240px;
     font-weight: bold;
     font-size: 19px;
@@ -72,8 +72,8 @@ h6 {
 
 .contenedor {
     background: #ffff;
-    width: 1440px;
-    height: 140px;
+    width: 1584px;
+    height: 130px;
     left: 0px;
     top: 13440;
 }
