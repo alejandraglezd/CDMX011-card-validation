@@ -1,4 +1,4 @@
-###ARTSale
+Tarjeta de crédito válida
 
 ##1. Preámbulo
 
@@ -10,7 +10,7 @@ Este algoritmo es simple. Obtenemos la reversa del número a verificar (que sola
 
 En este proyecto se construirá una aplicación web que le permita a un usuario validar el número de una tarjeta de crédito. Además, se implementará funcionalidad para ocultar todos los dígitos de una tarjeta menos los últimos cuatro.
 
-
+###ARTSale
 
 Este proyecto responde a las necesidades comerciales de diseñadorxs y productorxs artísticxs así como a lxs usuarixs interesadxs en dicho mercado. 
 
